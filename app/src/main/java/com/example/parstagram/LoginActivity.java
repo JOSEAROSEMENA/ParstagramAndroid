@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -20,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText etUsername; 
     private EditText etPassword;
     private Button btnLogin;
+
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
